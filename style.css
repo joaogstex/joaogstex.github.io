@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+background-image: linear-gradient(#636262, #b1afaf);
+height: 122vh;
+font-weight: bold;
+letter-spacing: 2px;
+zoom: 0.9;
+transform: scale(0.9);
+transform-origin: 0 0;
+transform: scale(0.9);
+transform-origin: 0 0;
+transform: scale(0.9);
+transform-origin: 0 0;
+}
+*{
+    margin: 0px; padding: 0px; font-family: 'Montserrat', sans-serif;
+}
+.main{
+    background-color: white;
+    height: auto;
+    width: 650px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+
+}
+.left{
+    background-color: #FFC59E;
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+.right{
+    width: 450px;
+    float: left;
+}
+.exemplo{
+    height: 180px;
+    width: 180px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    border: 10px solid #FFC59E;
+}
+.exemplo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.box-1{
+    position: relative;
+}
+.heading{
+    background-color: #4d4d4d;
+    padding: 10px;
+    color: #FFC59E;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: -15px;
+}
+.heading::after{
+    content: ' ';
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: #5a5959;
+    left: 191px;
+    top: 26px;
+    transform:rotate(56deg);
+    z-index: -1;
+}
+.p1{
+    padding: 9px 10px;
+    font-size: 11px;
+}
+.icons1{
+    font-size: 16px!important;
+    padding-right: 10px!important;
+    vertical-align: sub;
+}
+.fa-linkedin{
+    padding: 0px 1px;
+    font-size: 11px;
+    margin-left: -15px;
+    margin-top: 2px;
+}
+.a{
+    font-size: 16px!important;
+    padding-right: 10px!important;
+    vertical-align: sub;
+    display: flex;
+    
+}
+a:link {
+    text-decoration: none;
+  }
+  a:link, a:visited {
+    background-color: #FFC59E;
+    color: #4d4d4d;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover {
+    color: white;
+  }
+.skill-container{
+    width: 90%;
+    background-color: #4d4d4d;
+    margin: 0px 10px;
+}
+.skill{
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+.html{
+    width: 80%;
+    background-color: white;
+}
+.css{
+    width: 85%;
+    background-color: white;
+}
+.java{
+    width: 85%;
+    background-color: white;
+}
+.website{
+    width: 85%;
+    background-color: white;
+}
+.graphic{
+    width: 85%;
+    background-color: white;
+}
+.backjava{
+    width: 85%;
+    background-color: white;
+}
+.desenhar{
+    width: 100%;
+    background-color: white;
+}
+.escrever{
+    width: 100%;
+    background-color: white;
+}
+.sw{
+    width: 100%;
+    background-color: white;
+}
+.container{
+    position: absolute;
+    top: -400px;
+    text-align: right;
+    padding: 0 300px;
+}
+.block {
+  position: absolute;
+  top: -50px;
+}
+.box-2 h2{
+    position: absolute;
+    top: 130px;
+    right: 250px;
+    text-align: right;
+    padding: 1px;
+    letter-spacing: 3px;
+}
+.box-2{
+    padding: 0px 50px;
+    margin-top: 30px;
+}
+.p2{
+    position: absolute;
+    text-align: start;
+    justify-content: center;
+    padding: 0 10px;
+    right: 40px;
+    font-size: 10px!important;
+    font-weight: 300px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 18px;
+    margin-top: 145px;
+    margin-left: 150px;
+    max-width:395px;
+    
+}
+.box-3 h2{
+    position: absolute;
+    top: 280px;
+    right: 256px;
+    text-align: right;
+    padding: 1px;
+    letter-spacing: 3px;
+}
+.box-3{
+    padding: 0px 50px;
+    margin-top: 30px;
+}
+.p3{
+    position: absolute;
+    text-align: center;
+    padding: 0 100px;
+    right: 240px;
+    font-size: 10px!important;
+    font-weight: 300px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 18px;
+    margin-top: 287px;
+    margin-left: 150px;
+}
+.j1{
+    position: absolute;
+    text-align: start;
+    padding: 0 10px;
+    right: 225px;
+    font-size: 10px!important;
+    font-weight: 300px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 18px;
+    margin-top: 300px;
+    margin-left: 150px;
+}
+.j2{
+    position: absolute;
+    text-align: start;
+    padding: 0 10px;
+    right: 248px;
+    font-size: 10px!important;
+    font-weight: 300px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 18px;
+    margin-top: 312px;
+    margin-left: 150px;
+}
+.box-4 h2{
+    position: absolute;
+    top: 400px;
+    right: 130px;
+    text-align: right;
+    padding: 1px;
+    letter-spacing: 3px;
+}
+.box-4{
+    padding: 0px 50px;
+    margin-top: 30px;
+}
+.p4{
+    position: absolute;
+    text-align: start;
+    justify-content: center;
+    padding: 0 10px;
+    right: 70px;
+    font-size: 10px!important;
+    font-weight: 300px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 18px;
+    margin-top: 420px;
+    margin-left: 240px;
+}
